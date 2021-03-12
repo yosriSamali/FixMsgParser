@@ -11,9 +11,9 @@ To install FixMsgParser application you need to:
 1. clone this repository into a local file:<br/>
 `$ git clone https://github.com/yosriSamali/FixMsgParser.git`
 
-2.`$ cd FixMsgParser`
+2. `$ cd FixMsgParser`
 
-3.Install the necesseray packages:<br/>
+3. Install the necesseray packages:<br/>
 `$ npm install` <br/>
 `$ npm i express` <br/>
 `$ npm i body-parser`
