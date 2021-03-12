@@ -26,5 +26,5 @@ To install FixMsgParser application you need to:
 * Main page: 
 ![](views/Fix-message.PNG)
 
-* Rsult:
+* Result:
 ![](views/fix-result.PNG)
