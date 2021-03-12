@@ -17,9 +17,6 @@ app.get('/', (req, res) => {
 app.post('/add', (req, res) => {
     const fix_message = fixParser.parse(req.body.name);
     const fix_pairs = Array.from(fix_message[0].data);
-    var tag = fix_pairs[1].tag;
-    var value = fix_pairs[1].value;
-    // console.log(fix_pairs);
     const userValue = {
         tag : tag,
         value : value,
@@ -32,6 +29,5 @@ app.post('/add', (req, res) => {
 })
 
 app.listen(5000,function(){
-    
     console.log('server running on port 5000');
 })
