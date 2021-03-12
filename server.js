@@ -18,8 +18,6 @@ app.post('/add', (req, res) => {
     const fix_message = fixParser.parse(req.body.name);
     const fix_pairs = Array.from(fix_message[0].data);
     const userValue = {
-        tag : tag,
-        value : value,
         size: fix_pairs.length,
         fix_pairs: fix_pairs
     }
