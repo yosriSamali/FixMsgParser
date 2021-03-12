@@ -23,3 +23,8 @@ To install FixMsgParser application you need to:
    2. Running the command/ `node server.js`
 
 # Example
+* Main page: 
+![](views/Fix-message.PNG)
+
+* Rsult:
+![](views/fix-result.PNG)
